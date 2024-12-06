@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+#container {
+  width: 800px;
+  height: 600px;
+  border: 6px solid #000;
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#field {
+  background-color: #f08c8c;
+  width: 100%;
+  height: 60%;
+  
+  border: 10px solid #000;
+  
+  position: relative;
+}
+
+#user-1 {
+  position: absolute;
+  bottom: 0;
+}
+
+#chat {
+  width: 100%;
+  height: 40%;
+  
+  border: 10px solid #000;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#chat-log {
+  background-color: yellow;
+  height: 80%;
+
+  font-size: 16px;
+  padding: 10px;
+}
+
+#chat-input {
+  background-color: red;
+  height: 20%;
+}
+
+#chat-input-container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+}
+
+#chat-input-box {
+  width: 90%;
+  height: 100%;
+
+  font-size: 16px;
+  padding: 10px;
+}
+
+#chat-input-button {
+  width: 10%;
+  height: 100%;
+}
+
+.sim {
+  background-color: #000;
+  width: 25px;
+  height: 25px;
+}
+
