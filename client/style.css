@@ -6,8 +6,35 @@
 
 h1 {
   text-align: center;
+  padding: 20px;
 }
 
+#modal-bg {
+  /* display: none; */
+  width: 100%;
+  height: 100%;
+  background-color: #0000007a;
+
+  position: absolute;
+  z-index: 10;
+}
+
+#modal input {
+  font-size: 16px;
+}
+
+#modal {
+  text-align: center;
+  padding: 20px;
+
+  background-color: #fff;
+  border: 10px solid #000;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
 #container {
   width: 800px;
@@ -28,6 +55,7 @@ h1 {
   border: 10px solid #000;
   
   position: relative;
+  z-index: 0;
 }
 
 #user-1 {
@@ -51,6 +79,8 @@ h1 {
 
   font-size: 16px;
   padding: 10px;
+
+  overflow-y: scroll;
 }
 
 #chat-input {

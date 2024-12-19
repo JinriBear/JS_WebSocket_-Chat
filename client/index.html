@@ -8,16 +8,20 @@
   <script src="index.js" defer></script>
 </head>
 <body>
+  <div id="modal-bg">
+    <div id="modal">
+      <div>사용하실 닉네임을 입력해주세요</div>
+      <input type="text" id="nickname">
+      <button id="set-Nickname">확인</button>
+    </div>
+  </div>
   <h1>캐릭터 채팅방</h1>
   <div id="container">
     <div id="field">
       <div class="sim" id="user-1"></div>
     </div>
     <div id="chat">
-      <div id="chat-log">
-        <p>최진영: 안녕하세요.</p>
-        <p>손님: 반갑습니다. 최진영님</p>
-      </div>
+      <div id="chat-log"></div>
       <div id="chat-input">
         <form id="chat-input-container">
           <input type="text" id="chat-input-box">
